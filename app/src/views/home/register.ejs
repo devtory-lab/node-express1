@@ -4,17 +4,26 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>회원가입</title>
-	<link rel="stylesheet" href="/css/home/register.css">
-	<script src="/js/home/register.js" defer></script>
+	<title>회원가입 화면</title>
+	<link rel="stylesheet" href="/css/home/login.css">
+	<script src="/js/home/login.js"></script>
 </head>
 <body>
-		<input type="text" id="id" placeholder="아이디 입력"><br>
-		<input type="text" id="psword" placeholder="비밀번호 입력"><br>
-		<input type="text" id="confirm-psword" placeholder="비밀번호 확인"><br>
-		<input type="text" id="name" placeholder="이름 입력"><br>
-		<span id="button">회원가입</span>
-		<a href="/login">로그인</a>
+	
+	<div class="login-page">
+		<div class="form">
+		  <form class="login-form">
+			<input type="text" id="id" placeholder="아이디"/>
+			<input type="text" id="name" placeholder="이름"/>
+			<input type="password" id="psword" placeholder="비밀번호"/>
+			<input type="password" id="confirm-psword" placeholder="비밀번호 확인"/>
+			<button>SIGN UP</button>
+			<p class="message">Already registered? <a href="/login">Login</a></p>
+		  </form>
+		</div>
+	  </div>
 	
 </body>
 </html>
+
+<!-- Copyright (c) 2022 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy) -->

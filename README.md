@@ -3,7 +3,7 @@
 유튜브 nodejs + express 따라하기
 
 22.10.05
-https://www.youtube.com/watch?v=69JiX9rGNmI&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=21
+https://www.youtube.com/watch?v=n3XUYss1jPg&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=23
 
 참고사이트
 https://codepen.io/
