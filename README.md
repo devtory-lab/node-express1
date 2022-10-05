@@ -15,7 +15,7 @@ git push
 
 git tag v0.1.0-notDB	//버전 관리용
 git log --oneline 		//한줄로 로그 보여줌 Q 누르면 나간다.
-git push origin v0.1.0-notDB
+git push origin v0.1.1-notDB
 * * *
 실행법
 E:\_workspace\node-ex1\>cp app
