@@ -29,6 +29,6 @@ const process = {
 
 
 module.exports = {
-	output,
+	output,		//output: output 형태임
 	process,
 };

@@ -18,7 +18,7 @@
   "author": "DevTorY",
   "license": "MIT",
   "keywords": [],
-  "description": "",
+  "description": "데브토리 node.js + express 테스트 사이트",
   "homepage": "https://devtory.com",
   "repository": {
     "type": "git",
