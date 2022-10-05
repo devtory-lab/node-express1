@@ -5,7 +5,7 @@
 22.10.05
 https://www.youtube.com/watch?v=myi7ZrKkf2o&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&
 index=28
-* 
+* * *
 나중에 볼 영상 순서
 https://www.youtube.com/watch?v=Q4JpUm-cyQw&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=33
 * * *
