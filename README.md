@@ -3,7 +3,11 @@
 유튜브 nodejs + express 따라하기
 * * *
 22.10.05
-https://www.youtube.com/watch?v=mizgP540Zvc&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=25
+https://www.youtube.com/watch?v=myi7ZrKkf2o&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&
+index=28
+* 
+나중에 볼 영상 순서
+https://www.youtube.com/watch?v=Q4JpUm-cyQw&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=33
 * * *
 참고사이트 - 퍼블(저작권 주의 - 하단 comments 참고)
 https://codepen.io/
@@ -13,7 +17,7 @@ git add .
 git commit -m "메세지"
 git push
 
-git tag v0.1.0-notDB	//버전 관리용
+git tag v0.1.1-notDB	//버전 관리용
 git log --oneline 		//한줄로 로그 보여줌 Q 누르면 나간다.
 git push origin v0.1.1-notDB
 * * *
