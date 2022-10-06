@@ -2,12 +2,11 @@
 백엔드 맛보기 강의 따라하기
 유튜브 nodejs + express 따라하기
 * * *
-22.10.05
-https://www.youtube.com/watch?v=myi7ZrKkf2o&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&
-index=28
+22.10.06
+https://www.youtube.com/watch?v=Q4JpUm-cyQw&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=33
 * * *
 나중에 볼 영상 순서
-https://www.youtube.com/watch?v=Q4JpUm-cyQw&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=33
+https://www.youtube.com/watch?v=Q4JpUm-cyQw&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=34
 * * *
 참고사이트 - 퍼블(저작권 주의 - 하단 comments 참고)
 https://codepen.io/

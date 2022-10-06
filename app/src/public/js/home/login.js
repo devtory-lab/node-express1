@@ -13,8 +13,8 @@ function login(){
 		psword: psword.value,
 	};
 
-	//console.log(req);
-	//console.log(JSON.stringify(req));
+	// console.log(req);
+	// console.log(JSON.stringify(req));
 
 	fetch("/login", {
 		method: "POST",

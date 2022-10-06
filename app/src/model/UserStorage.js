@@ -1,6 +1,7 @@
 "use strict";
 
 const fs = require("fs").promises;
+const db = require("../config/db");
 
 class UserStorage {
 	
@@ -35,21 +36,30 @@ class UserStorage {
 
 	static getUsers(isAll, ...fields){
 			
-		return fs
-			.readFile("./src/databases/users.json")
-			.then((data) => {
-				return this.#getUsers(data, isAll, fields);
-			})			//성공시
-			.catch(console.error);		//실패시
+		// databases/users.json 사용시
+		// return fs
+		// 	.readFile("./src/databases/users.json")
+		// 	.then((data) => {
+		// 		return this.#getUsers(data, isAll, fields);
+		// 	})			//성공시
+		// 	.catch(console.error);		//실패시
 	}
 
 	static getUserInfo(id){		
-		return fs
-			.readFile("./src/databases/users.json")
-			.then((data) => {
-				return this.#getUserInfo(data, id);
-			})			//성공시
-			.catch(console.error);		//실패시		
+		// databases/users.json 사용시
+		// return fs
+		// 	.readFile("./src/databases/users.json")
+		// 	.then((data) => {
+		// 		return this.#getUserInfo(data, id);
+		// 	})			//성공시
+		// 	.catch(console.error);		//실패시
+		return new Promise((resolve, reject) => {
+			db.query("select * from users where id = ?", [id], (err, data) => {
+				if(err)	reject(err);
+				//console.log(data[0]);
+				resolve(data[0]);
+			});
+		});
 	}
 
 	static async save(userInfo){
